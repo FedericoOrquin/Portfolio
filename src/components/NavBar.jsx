@@ -11,7 +11,7 @@ const NavBar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300' >
        <div>
-        <h1 className='animate-bounce duration-300 smooth '>Welcome</h1>
+        <h1>Welcome</h1>
         </div> 
 
         {/* menu */}
@@ -44,25 +44,25 @@ const NavBar = () => {
     <ul>
         <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500'>
             <a className='flex justify-between items-center w-full text-gray-300'
-            href='https://www.linkedin.com/in/federico-orquin-fullstack/' target='_blank' >
+            href='https://www.linkedin.com/in/federico-orquin-fullstack/' target='_blank' rel='noreferrer' >
                 linkedin<FaLinkedin size={30}/>
             </a>
         </li>
         <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a className='flex justify-between items-center w-full text-gray-300'
-            href='https://github.com/FedericoOrquin' target='_blank' >
+            href='https://github.com/FedericoOrquin' target='_blank' rel='noreferrer' >
                 GitHub<FaGithub size={30}/>
             </a>
         </li>
         <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
             <a className='flex justify-between items-center w-full text-gray-300'
-            href='mailto:fedeorquinn@gmail.com' target='_blank' >
-                Email<FaLinkedin size={30}/>
+            href='mailto:fedeorquinn@gmail.com' target='_blank'  rel='noreferrer'>
+                Email<HiOutlineMail size={30}/>
             </a>
         </li>
         <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a className='flex justify-between items-center w-full text-gray-300'
-            href='https://www.linkedin.com/in/federico-orquin-fullstack/' target='_blank' >
+            href='https://www.linkedin.com/in/federico-orquin-fullstack/' target='_blank' rel='noreferrer' >
                 Resume<BsFillPersonLinesFill size={30}/>
             </a>
         </li>

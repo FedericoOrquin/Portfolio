@@ -18,7 +18,9 @@ const About = () => {
                 </div> 
                 <div>
                     <p>
-                        Texto motivacional de que me gusta lo que hago y bla bla
+                    i'm passionate about building software that fulfills the users needs
+                     and also I like learning new technologies and working with different people,
+                    training and exchanging ideas.
                     </p>
                 </div> 
             </div>

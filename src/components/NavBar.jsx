@@ -13,7 +13,7 @@ const NavBar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300' >
        <div className='group'>
-        <h1 className='animate-bounce 2s '>Welcome</h1>
+        <h1 className='animate-bounce 2s text-pink-600 font-bold m-8 mt-12 text-5xl '>Welcome</h1>
         </div> 
 
         {/* menu */}

@@ -2,7 +2,7 @@ import React from "react";
 import TetrisImage from "../assets/tetrisImage.png";
 import weatherImage from "../assets/weatherImage.png";
 import cocktailLogo from "../assets/cocktailLogo.png";
-import cryptoImage from '../assets/crypto.png';
+import cryptoImage from '../assets/crypto.png'
 const Work = () => {
 	return (
 		<div name="work" className="w-full md:h-screen text-gray-300 bg-[#0a192f]">
@@ -15,7 +15,7 @@ const Work = () => {
 				</div>
 
 				{/* Container */}
-				<div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+				<div className="grid sm:grid-cols-2 md:grid-cols-4 gap-4">
 					{/* Grid Item */}
 					<div
 						style={{ backgroundImage: `url(${weatherImage})` }}
@@ -110,7 +110,6 @@ const Work = () => {
 								</a>
 							</div>
 						</div>
-            </div>
 						<div
 							style={{ backgroundImage: `url(${cryptoImage})` }}
 							className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div p-auto"

@@ -110,6 +110,7 @@ const Work = () => {
 								</a>
 							</div>
 						</div>
+            </div>
 						<div
 							style={{ backgroundImage: `url(${cryptoImage})` }}
 							className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div p-auto"

@@ -111,7 +111,9 @@ const Work = () => {
 							</div>
 						</div>
 						{/* Grid Item */}
-					<div
+					
+				</div>
+        <div
 						style={{ backgroundImage: `url(${cryptoImage})` }}
 						className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
 					>
@@ -143,7 +145,6 @@ const Work = () => {
 						</div>
 						</div>
 					</div>
-				</div>
 			</div>
 		</div>
 	);
